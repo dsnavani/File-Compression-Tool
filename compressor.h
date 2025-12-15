@@ -1,0 +1,7 @@
+#pragma once
+#include <string>
+
+class Compressor {
+public:
+    void compress(const std::string& inputFile, const std::string& outputFile);
+};
